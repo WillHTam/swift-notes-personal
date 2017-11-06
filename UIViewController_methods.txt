@@ -1,0 +1,15 @@
+viewDidLoad()
+    Called when teh view controller's content view (top of its view hierarchhy) is created and loaded from a storybaord. 
+    The view controller's outlets are guaranteed to have valid values when this is called
+    Use this method ot perform any additonal setup required by view controller
+    Called only once when the content view is first created
+
+viewWillAppear()
+    Called bfore view controller's content view is added to teh app's view hierarchy. 
+    Used to trigger any operations that need to occur before the content view is presented onscreen
+
+viewDidAppear()
+    Called after view controller's content view has been added to teh app's view hierarchy
+    Use to trigger any operations that need to occur as soon as the view is presented onscreen, like fetching data or showing an animation. 
+    
+ 

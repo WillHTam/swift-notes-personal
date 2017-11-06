@@ -1,0 +1,14 @@
+Underscores before Methods
+
+class Bar{
+    func foo(s1: String, s2: String) -> String {
+        return s1 + s2;
+    }
+}
+When you call foo(), it is called like bar.foo("Hello", s2: "World").
+
+But, you can override this behavior by using _ in front of s2 where it's declared.
+
+func foo(s1: String, _ s2: String) -> String{
+    return s1 + s2;
+}

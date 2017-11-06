@@ -1,0 +1,2 @@
+- Implicitly unwrapped conditionals (!)
+The object starts life as nil, but will get assigned a value before we use it. Thus we are certain it won't be nil by th etime we want to use it.
